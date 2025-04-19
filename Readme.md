@@ -2,7 +2,7 @@ This section of the code is designed to compare the performance of models traine
 
 First, the dataset is loaded using the pandas library from a specified path in Google Drive. The dataset includes player performance data from StarCraft II, and the target variable is the `LeagueIndex`, which represents the player's skill level. Missing values in the dataset are handled by replacing them with the mean of the respective columns, ensuring that there are no missing values during the training process.
 
-The features (`X`) and the target (`y`) are separated from the dataset. The dataset is then split into training and testing sets using a 70-30 split, with 70% of the data used to train the model and 30% reserved for testing.
+The features (`X`) and the target (`y`) are separated from the dataset. The dataset is then split into training, testing and validate sets using a 70-15-15 split, with 70% of the data used to train the model, 15% validation and 15% testing the model.
 
 The first part of the code focuses on training a model using the **non-preprocessed dataset**. It uses the One-vs-Rest classification strategy with Logistic Regression, which is particularly useful when the problem involves multiple classes (like predicting different league ranks). After training the model, predictions are made on the test data, and the predicted values are compared against the actual values from the test set using a confusion matrix. Additionally, a classification report is generated, providing metrics such as precision, recall, and F1-score. An **AUC-ROC curve** is plotted to evaluate how well the model distinguishes between different classes, and a precision-recall curve is plotted to visualize the model's performance on imbalanced classes.
 
