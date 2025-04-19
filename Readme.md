@@ -34,13 +34,13 @@ Several machine learning models were trained and compared to predict player skil
 
 The models were evaluated based on accuracy, precision, recall, and F1-score, with the **Gradient Boosting Classifier** yielding the best performance.
 
-#### [Model Comparison Notebook](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/model-comparison/Model_Comparison_with_Original_Dataset.ipynb)
+#### [Model Comparison](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/model-comparison/Model_Comparison_with_Original_Dataset.ipynb)
 
 ### 4. **Model Training**
 
 After preprocessing the data, I trained a **Logistic Regression** model, which is used to predict player skill levels (used for matchmaking).
 
-#### [Model Training Notebook](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/model-training/Preprocessing_Dataset_%2B_Training_a_Model_Using_LogisticRegression.ipynb)
+#### [Model Training](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/model-training/Preprocessing_Dataset_%2B_Training_a_Model_Using_LogisticRegression.ipynb)
 
 ### 5. **Model Evaluation**
 
@@ -52,7 +52,7 @@ The trained model was evaluated using various performance metrics such as:
 
 This evaluation helped assess how well the model performed in predicting the skill ratings of players.
 
-#### [Model Evaluation Folder](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/tree/model-evaluation)
+#### [Model Evaluation](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/tree/model-evaluation)
 
 ### 6. **Prototype v1 (Basic Matchmaking)**
 
@@ -63,7 +63,7 @@ This evaluation helped assess how well the model performed in predicting the ski
 
 This method is used for general matchmaking where no player or team is fixed, and every player has an equal chance to be placed on either team.
 
-#### [Prototype v1 Notebook](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/prototype-v1/SBMM_Prototype_V1_0.ipynb)
+#### [Prototype v1](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/prototype-v1/SBMM_Prototype_V1_0.ipynb)
 
 ### 7. **Prototype v2 (Advanced Matchmaking Scenarios)**
 
@@ -71,7 +71,7 @@ This method is used for general matchmaking where no player or team is fixed, an
 - **Scenario 1: Fixed Team vs Matching Team**: A pre-defined fixed team (e.g., a team of 5 friends) is matched against a randomly selected team with a similar total skill level.
 - **Scenario 2: Solo Player Matchmaking**: A solo player is placed in a fixed team, and the rest of the players are shuffled to form balanced teams, similar to ranked solo-queue matchmaking.
 
-#### [Prototype v2 Notebook](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/prototype-v2/SBMM_Prototype_V2_0.ipynb)
+#### [Prototype v2](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/prototype-v2/SBMM_Prototype_V2_0.ipynb)
 
 ---
 
