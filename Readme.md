@@ -73,6 +73,36 @@ This method is used for general matchmaking where no player or team is fixed, an
 
 #### [Prototype v2](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/blob/prototype-v2/SBMM_Prototype_V2_0.ipynb)
 
+### 8. **Prototype v3 (Interactive Matchmaking Simulator)**
+
+**Prototype v3** introduces a fully interactive web-based matchmaking simulator built using **Gradio**. It allows users to:
+
+- View a sample player profile (Player142) with their skill rating and rank.
+- Choose between **Solo Queue** and **Fixed Team** matchmaking modes.
+- Dynamically simulate fair 5v5 team compositions using logistic regression–predicted skill scores.
+- Visualize **average skill by rank** and **skill distribution KDE plots** for both teams.
+
+This prototype integrates real-time interaction, skill prediction, matchmaking fairness logic, and visual analytics into a unified interface.
+
+#### [Prototype v3](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/tree/prototype-v3)
+
+### 9. **Prototype v3 Code (Final Deployment Version)**
+
+This branch contains the finalized, deployable version of the Gradio-based matchmaking simulator. It includes:
+
+- Fully functional `app.py` with logic for:
+  - Skill prediction
+  - Rank assignment
+  - Team formation
+  - Fairness score calculation
+  - Chart rendering
+- Live UI powered by **Gradio Blocks** with interactive controls
+- Deployment-ready configuration for **Hugging Face Spaces**
+
+> 💻 **Live App**: [Try the deployed demo](https://huggingface.co/spaces/LaXnZ/enhancing-sbmm-deploy)
+
+#### [Prototype v3 Code](https://github.com/LaXnZ/enhancing-sbmm-in-competitive-games/tree/prototype-v3-code)
+
 ---
 
 ## Future Work
